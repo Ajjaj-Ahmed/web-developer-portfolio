@@ -7,12 +7,19 @@ boy{
   color: #fd6e0a;
 }
 .btn-primary{
+  border: 0;
   border: 5px;
   background: #fd6e0a;
+  color:#FFF;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 /* nav related styles */
 nav{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-title{
   color: #181818;
@@ -21,6 +28,7 @@ nav{
 }
 nav>ul{
   display: flex ;
+  align-items: center;
 }
 nav li{
   list-style: none;
